@@ -568,6 +568,9 @@
   .border-gray-500 {
     border-color: var(--color-gray-500);
   }
+  .border-gray-900 {
+    border-color: var(--color-gray-900);
+  }
   .border-b-gray-600 {
     border-bottom-color: var(--color-gray-600);
   }
