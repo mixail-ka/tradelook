@@ -342,6 +342,9 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -447,6 +450,9 @@
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
+  .w-130 {
+    width: calc(var(--spacing) * 130);
+  }
   .w-133 {
     width: calc(var(--spacing) * 133);
   }
@@ -536,13 +542,6 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-  .space-y-4 {
-    :where(& > :not(:last-child)) {
-      --tw-space-y-reverse: 0;
-      margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
-      margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
-    }
   }
   .truncate {
     overflow: hidden;
@@ -1095,6 +1094,11 @@
       width: calc(var(--spacing) * 138);
     }
   }
+  .lg\:w-275 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 275);
+    }
+  }
   .lg\:w-412 {
     @media (width >= 64rem) {
       width: calc(var(--spacing) * 412);
@@ -1216,11 +1220,6 @@
 @property --tw-skew-y {
   syntax: "*";
   inherits: false;
-}
-@property --tw-space-y-reverse {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
 }
 @property --tw-border-style {
   syntax: "*";
@@ -1399,7 +1398,6 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
-      --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
