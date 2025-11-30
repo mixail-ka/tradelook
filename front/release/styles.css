@@ -543,6 +543,9 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-x-10 {
+    column-gap: calc(var(--spacing) * 10);
+  }
   .truncate {
     overflow: hidden;
     text-overflow: ellipsis;
