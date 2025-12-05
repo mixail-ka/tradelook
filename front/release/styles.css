@@ -432,8 +432,8 @@
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
-  .w-37 {
-    width: calc(var(--spacing) * 37);
+  .w-35 {
+    width: calc(var(--spacing) * 35);
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
@@ -546,8 +546,8 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
-  .gap-x-10 {
-    column-gap: calc(var(--spacing) * 10);
+  .gap-x-4 {
+    column-gap: calc(var(--spacing) * 4);
   }
   .truncate {
     overflow: hidden;
